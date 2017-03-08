@@ -1,0 +1,45 @@
+<ion-menu [content]="content">
+    <ion-header color="primary">
+        <ion-toolbar>
+            <ion-title>MyZone</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <div padding>
+            <h5 no-padding>Hi, Rolando</h5>
+        </div>
+        <ion-list no-lines>
+            <button ion-item icon-left>
+                <ion-icon class="pad" name="contact"></ion-icon>
+                My account
+            </button>
+            <button ion-item icon-left>
+                <ion-icon class="pad" name="compass" ></ion-icon>
+                Events near me
+            </button>
+            <button ion-item icon-left>
+                <ion-icon class="pad" name="heart" ></ion-icon>
+                My favorites
+            </button>
+            <button ion-item icon-left>
+                <ion-icon class="pad" name="calendar" ></ion-icon>
+                List an event
+            </button>
+            <button ion-item icon-left>
+                <ion-icon class="pad" name="search" ></ion-icon>
+                Search for events
+            </button>
+        </ion-list>
+        <ion-row padding text-center>
+            <ion-col>
+                <button block ion-button color="danger">
+                    Logout
+                </button>
+
+            </ion-col>
+        </ion-row>
+
+
+    </ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #content id="nav"></ion-nav>

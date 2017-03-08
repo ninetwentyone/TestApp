@@ -1,0 +1,44 @@
+{
+  "name": "TestApp",
+  "author": "RChacon",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
+  },
+  "dependencies": {
+    "@angular/common": "2.4.9",
+    "@angular/compiler": "2.4.9",
+    "@angular/compiler-cli": "2.4.9",
+    "@angular/core": "2.4.9",
+    "@angular/forms": "2.4.9",
+    "@angular/http": "2.4.9",
+    "@angular/platform-browser": "2.4.9",
+    "@angular/platform-browser-dynamic": "2.4.9",
+    "@angular/platform-server": "2.4.9",
+    "@ionic/storage": "2.0.0",
+    "ionic-angular": "2.1.0",
+    "ionic-native": "2.8.0",
+    "ionicons": "3.0.0",
+    "rxjs": "5.2.0",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.7.7"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "1.1.4",
+    "typescript": "2.2.1"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-splashscreen"
+  ],
+  "cordovaPlatforms": [],
+  "description": "TestApp: An Ionic project"
+}
